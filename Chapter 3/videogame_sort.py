@@ -1,0 +1,18 @@
+videogames = ['rocket league', 'apex legends', 'smite', 'league of legends', 'final fantasy VII']
+
+print(videogames)
+videogames.sort()
+print(videogames)
+videogames.reverse()
+print(videogames)
+videogames.sort()
+print(videogames)
+videogames.insert(0, 'counter strike: global offensive')
+print(videogames)
+videogames.append('pokemon red')
+print(videogames)
+videogames.sort()
+print(videogames)
+print(f"There are {len(videogames)} videogames in my list.\n")
+videogames.sort(reverse=True)
+print(videogames)
