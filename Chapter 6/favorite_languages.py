@@ -14,3 +14,4 @@ print(f"{my_fav_language}\n\n")
 for name, language in favorite_languages.items():
     print(f"{name.title()}'s favorite programming language is {language.title()}.")
 
+print(f"{sorted(favorite_languages)}")
